@@ -100,6 +100,7 @@ Updates the current local branch with the changes fetched from remote (merges or
 **git push origin branchToBeSendToOrigin**
 
 Push your local branch up to the remote, origin. In the remote repo the branch can be merged to master.
+>option: -u (--set-upstream) For every branch that is up to date or successfully pushed, add upstream (tracking) reference,
 
 ### WORKFLOW:
  1. Fetch and merge changes from the remote
@@ -109,3 +110,23 @@ Push your local branch up to the remote, origin. In the remote repo the branch c
  5. Push your branch up to the remote for review
 
 >Steps 1 and 4 are a safeguard against merge conflicts. Step 5 involves git push.
+
+# OTHER COMMANDS OUT OF THE COURSE
+
+**git comandToSeeHelpInfo --help**
+
+Launch online documentation for that command.
+
+**git rm --cached fileToRemovedFromIndex.txt**
+
+Remove a file from the staging area.
+>--cached option is necessary. Without option will remove the file from the working directory too.
+
+**git remote add origin https://github.com/user/myrepo.git**
+
+Add the remote origin to the remotes list. Useful when you create a remote repo to be initialized with your local repo.
+
+
+### Online documentation
+
+https://git-scm.com/docs
