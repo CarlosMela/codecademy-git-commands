@@ -1,6 +1,12 @@
 This page contains all commands included in [Codecademy free Git course](https://www.codecademy.com/learn/learn-git "https://www.codecademy.com/learn/learn-git"). If any of these git commands doesn't sound to you please go and do it.
 
-# 1. BASIC GIT WORKFLOW
+1. [Basic.](#lesson1)
+2. [Backtracking.](#lesson2)
+3. [Branching.](#lesson3)
+4. [Teamwork.](#lesson4)
+5. [Other.](#other)
+
+# 1. BASIC GIT WORKFLOW<a name="lesson1"></a>
 
 **git init**
 
@@ -27,7 +33,7 @@ Permanently stores file changes from the staging area in the repository.
 
 Shows a list of all previous commits.
 
-# 2. GIT BACKTRACKING
+# 2. GIT BACKTRACKING<a name="lesson2"></a>
 
 **git show HEAD**
 
@@ -47,7 +53,7 @@ Discards changes in the working directory.
 Can be used to reset to a previous commit in your commit history.
 >5d69206 are the first 7 characters of the commit_SHA
 
-# 3. GIT BRANCHING
+# 3. GIT BRANCHING<a name="lesson3"></a>
 
 **git branch**
 
@@ -77,7 +83,7 @@ Include all changes made in branch-to-merge-into-current in the current (checkou
 
 Will delete the specified branch from your Git project.
 
-# 4. GIT TEAMWORK
+# 4. GIT TEAMWORK<a name="lesson4"></a>
 
 **git clone remoteLocation cloneName**
 
@@ -111,7 +117,7 @@ Push your local branch up to the remote, origin. In the remote repo the branch c
 
 >Steps 1 and 4 are a safeguard against merge conflicts. Step 5 involves git push.
 
-# OTHER COMMANDS OUT OF THE COURSE
+# OTHER COMMANDS OUT OF THE COURSE<a name="other"></a>
 
 **git comandToSeeHelpInfo --help**
 
