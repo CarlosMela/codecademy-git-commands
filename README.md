@@ -1,12 +1,12 @@
 This page contains all commands included in [Codecademy free Git course](https://www.codecademy.com/learn/learn-git "https://www.codecademy.com/learn/learn-git"). If any of these git commands doesn't sound to you please go and do it.
 
-1. [Basic.](#lesson1)
-2. [Backtracking.](#lesson2)
-3. [Branching.](#lesson3)
-4. [Teamwork.](#lesson4)
-5. [Other.](#other)
+1. [Basic.](#1-basic-git-workflow)
+2. [Backtracking.](#2-git-backtracking)
+3. [Branching.](#3-git-branching)
+4. [Teamwork.](#4-git-teamwork)
+5. [Other.](#other-commands-out-of-the-course)
 
-# 1. BASIC GIT WORKFLOW<a name="lesson1"></a>
+# 1. BASIC GIT WORKFLOW
 
 **git init**
 
@@ -33,7 +33,7 @@ Permanently stores file changes from the staging area in the repository.
 
 Shows a list of all previous commits.
 
-# 2. GIT BACKTRACKING<a name="lesson2"></a>
+# 2. GIT BACKTRACKING
 
 **git show HEAD**
 
@@ -53,7 +53,7 @@ Discards changes in the working directory.
 Can be used to reset to a previous commit in your commit history.
 >5d69206 are the first 7 characters of the commit_SHA
 
-# 3. GIT BRANCHING<a name="lesson3"></a>
+# 3. GIT BRANCHING
 
 **git branch**
 
@@ -83,7 +83,7 @@ Include all changes made in branch-to-merge-into-current in the current (checkou
 
 Will delete the specified branch from your Git project.
 
-# 4. GIT TEAMWORK<a name="lesson4"></a>
+# 4. GIT TEAMWORK
 
 **git clone remoteLocation cloneName**
 
