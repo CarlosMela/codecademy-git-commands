@@ -32,6 +32,9 @@ Permanently stores file changes from the staging area in the repository.
 **git log**
 
 Shows a list of all previous commits.
+>To see the history of a specific directory or file 'git log specific-path'
+
+>option: --follow Will show the history of a file event if it was moved from another directory
 
 # 2. GIT BACKTRACKING
 
@@ -59,6 +62,8 @@ Can be used to reset to a previous commit in your commit history.
 
 Show repository branches.
 >asterisk * is showing you what branch you’re on
+
+>option: -a (--all) shows also remote branches
 
 **git branch myNewTask**
 
@@ -106,7 +111,7 @@ Updates the current local branch with the changes fetched from remote (merges or
 **git push origin branchToBeSendToOrigin**
 
 Push your local branch up to the remote, origin. In the remote repo the branch can be merged to master.
->option: -u (--set-upstream) For every branch that is up to date or successfully pushed, add upstream (tracking) reference,
+>option: -u (--set-upstream) For every branch that is up to date or successfully pushed, add upstream (tracking) reference
 
 ### WORKFLOW:
  1. Fetch and merge changes from the remote
